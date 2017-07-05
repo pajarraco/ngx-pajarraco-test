@@ -1,0 +1,25 @@
+{
+  "name": "ngx-pajarraco-test",
+  "version": "1.0.0",
+  "description": "Component Test",
+  "main": "ngx-pajarraco-test.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pajarraco/ngx-pajarraco-test.git"
+  },
+  "author": "Ernesto La Fontaine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pajarraco/ngx-pajarraco-test/issues"
+  },
+  "homepage": "https://github.com/pajarraco/ngx-pajarraco-test#readme",
+  "devDependencies": {
+    "@angular/common": "^4.2.5",
+    "@angular/core": "^4.2.5",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.12"
+  }
+}
