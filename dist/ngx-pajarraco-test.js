@@ -1,2 +1,2 @@
-export { NgxPajarracoTestModule } from './src/ngx-pajarraco-test.module';
+export { NgxPajarracoTestModule } from './ngx-pajarraco-test.module';
 //# sourceMappingURL=ngx-pajarraco-test.js.map

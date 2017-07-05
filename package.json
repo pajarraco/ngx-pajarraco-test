@@ -1,13 +1,15 @@
 {
   "name": "ngx-pajarraco-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Component Test",
-  "main": "dist/ngx-pajarraco-test.js",
+  "main": "ngx-pajarraco-test.umd.js",
   "module": "ngx-pajarraco-test.js",
   "typings": "ngx-pajarraco-test.d.ts",
   "scripts": {
-    "build": "tsc -p ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "copy": "node copy-package.js && node cleanup-package.js",
+    "bundle": "rimraf dist && rollup -c rollup.config.umd.js && tsc",
+    "postbundle": "",
+    "build": "npm run bundle && npm run copy"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,11 @@
     "@angular/common": "^4.2.5",
     "@angular/compiler": "^4.2.5",
     "@angular/core": "^4.2.5",
+    "node-sass": "^4.5.3",
+    "rollup-plugin-angular": "^0.4.4",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
     "rxjs": "^5.4.2",
     "typescript": "^2.4.1",
     "typings": "^2.1.1",

@@ -1,0 +1,18 @@
+{
+  "name": "ngx-pajarraco-test",
+  "version": "1.0.2",
+  "description": "Component Test",
+  "main": "ngx-pajarraco-test.umd.js",
+  "module": "ngx-pajarraco-test.js",
+  "typings": "ngx-pajarraco-test.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pajarraco/ngx-pajarraco-test.git"
+  },
+  "author": "Ernesto La Fontaine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pajarraco/ngx-pajarraco-test/issues"
+  },
+  "homepage": "https://github.com/pajarraco/ngx-pajarraco-test#readme"
+}
