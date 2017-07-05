@@ -1,9 +1,12 @@
 {
   "name": "ngx-pajarraco-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component Test",
-  "main": "ngx-pajarraco-test.ts",
+  "main": "dist/ngx-pajarraco-test.js",
+  "module": "ngx-pajarraco-test.js",
+  "typings": "ngx-pajarraco-test.d.ts",
   "scripts": {
+    "build": "tsc -p ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +21,11 @@
   "homepage": "https://github.com/pajarraco/ngx-pajarraco-test#readme",
   "devDependencies": {
     "@angular/common": "^4.2.5",
+    "@angular/compiler": "^4.2.5",
     "@angular/core": "^4.2.5",
     "rxjs": "^5.4.2",
+    "typescript": "^2.4.1",
+    "typings": "^2.1.1",
     "zone.js": "^0.8.12"
   }
 }

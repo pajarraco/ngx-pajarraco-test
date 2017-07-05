@@ -11,6 +11,9 @@ import { NgxPajarracoTestComponent } from './ngx-pajarraco-test.component';
     NgxPajarracoTestComponent
   ],
   providers: [],
+  exports:[
+    NgxPajarracoTestComponent
+  ]
   
 })
 export class NgxPajarracoTestModule { }

@@ -1,0 +1,1 @@
+{"version":3,"file":"ngx-pajarraco-test.js","sourceRoot":"","sources":["../ngx-pajarraco-test.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,iCAAiC,CAAC","sourcesContent":["export { NgxPajarracoTestModule } from './src/ngx-pajarraco-test.module';"]}
